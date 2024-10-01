@@ -37,7 +37,7 @@ if (isset($_GET['nome']) && isset($_GET['email']) && isset($_GET['mensagem'])) {
     echo "<p><strong>Mensagem:</strong> " . $mensagem . "</p>";
     // Verifica se a variável $pdo, que deve ser uma instância de PDO, está definida e é válida
     // Prepara uma consulta SQL para selecionar as colunas 'id' e 'nome' da tabela 'usuario'
-    $stmt = $pdo->prepare("insert into senai_aulaphp.mensagens(nome, email, mensagem) 
+    $stmt = $pdo->prepare("insert into senai_aulaphp.usuario(nome, email, mensagem) 
 values('$nome', '$email', '$mensagem');");
     
     // Executa a consulta preparada

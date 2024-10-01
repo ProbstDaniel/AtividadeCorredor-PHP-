@@ -21,7 +21,7 @@
     // Verifica se a variável $pdo, que deve ser uma instância de PDO, está definida e é válida
     if ($pdo) {
         // Prepara uma consulta SQL para selecionar as colunas 'id' e 'nome' da tabela 'usuario'
-        $stmt = $pdo->prepare("select * from aulaphp.usuario where nome = '$login' and  senha = '$senha'");
+        $stmt = $pdo->prepare("select * from senai_aulaphp.usuario where nome = '$login' and  senha = '$senha'");
         // Executa a consulta preparada
         $stmt->execute();
         // Busca todos os resultados da consulta em um array associativo
