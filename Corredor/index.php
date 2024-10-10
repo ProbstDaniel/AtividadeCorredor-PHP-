@@ -27,7 +27,7 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listagem de Participantes Cadastrados</title>
-    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Style1.css">
 </head>
 <body>
     <!-- Tabela para listar os alunos cadastrados -->
